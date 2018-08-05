@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="all_measurement">AutoCompleteTextView Example</string>
+
+    <string-array name="measurements">
+        <item>Kilogram (kg)</item>
+        <item>Hektogram (hg)</item>
+        <item>Gram (g)</item>
+
+        <item>Liter (l)</item>
+        <item>Deciliter (dl)</item>
+        <item>Centiliter (cl)</item>
+        <item>Milliliter (ml)</item>
+        <item>Tesked (tsk)</item>
+        <item>Kryddmått (krm)</item>
+        <item>Kaffekopp (kkp)</item>
+        <item>Glas (glas)</item>
+    </string-array>
+</resources>

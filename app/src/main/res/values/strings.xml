@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DinnerTime</string>
+    <string name="addItem">Add Item</string>
+    <string name="recipes">Recipes</string>
+    <string name="items">Items</string>
+    <string name="addItemToList">Add Item To List</string>
+    <string name="removeItem">Remove Item From List</string>
+    <string name="selectItem">Select an Item</string>
+    <string name="selectQuantity">Select a Quantity</string>
+    <string name="selectMeasurement">Select a Measurement</string>
+    <string name="line1">Line 1</string>
+    <string name="line2">Line 2</string>
+</resources>

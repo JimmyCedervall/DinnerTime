@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="all_items">AutoCompleteTextView Example</string>
+
+    <string-array name="items">
+        <item>Mjöl</item>
+        <item>Mjölk</item>
+        <item>Havre</item>
+        <item>Socker</item>
+    </string-array>
+</resources>

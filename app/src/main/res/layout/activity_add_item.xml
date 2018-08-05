@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddItem"
+
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/gray">
+
+    <AutoCompleteTextView
+        android:id="@+id/actvAddItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:completionHint="Select an item"
+        android:completionThreshold="1"
+        android:hint="@string/selectItem" />
+
+    <EditText
+        android:id="@+id/actvAddItemQuantity"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/actvAddItem"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/selectQuantity" />
+
+    <AutoCompleteTextView
+        android:id="@+id/actvAddItemMeasurement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/actvAddItemQuantity"
+        android:layout_centerHorizontal="true"
+        android:completionHint="Select a Measurement"
+        android:completionThreshold="1"
+        android:hint="@string/selectMeasurement" />
+
+    <Button
+        android:id="@+id/addToList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:onClick="addItemToList"
+        android:text="@string/addItemToList"
+        android:background="@color/green"/>
+
+    <Button
+        android:id="@+id/removeFromList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addToList"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-100dp"
+        android:background="@color/red"
+        android:text="@string/removeItem" />
+</RelativeLayout>
