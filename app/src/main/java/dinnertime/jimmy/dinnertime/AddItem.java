@@ -42,6 +42,7 @@ public class AddItem extends AppCompatActivity {
                 android.R.layout.simple_list_item_1, measurement);
         editTextM.setAdapter(MAdapter);
 
+        //Här kan felet i koden ligga
         Items tempItems = new Items();
         tempItems.setmItemList(this.mItemList);
         tempItems.setmAdapter(this.mAdapter);
